@@ -108,3 +108,23 @@ button:hover{
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+@media screen and (max-width:768px) {
+    .profile-card img{
+        width: 3rem;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    button{
+        font-size: 0.8rem;
+    }
+    main{
+        padding: 1rem;
+    }
+}
