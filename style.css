@@ -54,7 +54,6 @@ main{
     justify-content: center;
     height: 100%;
     min-height: 100dvh;
-    padding: 1rem;
 }
 .profile-card{
     background-color: var(--Grey-800);
@@ -64,7 +63,7 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 0.5rem;
-    padding: 2rem;
+    padding: 3rem;
 }
 .profile-card img{
     width: 5rem;
@@ -85,7 +84,7 @@ h3{
 .btns{
     display: flex;
     flex-direction: column;
-    gap: 0.7rem;
+    gap: 1rem;
 }
 button{
     font-weight: 600;
@@ -110,6 +109,9 @@ button:hover{
     color: hsl(228, 45%, 44%);
 }
 @media screen and (max-width:768px) {
+    .profile-card{
+        padding: 2rem;
+    }
     .profile-card img{
         width: 3rem;
     }
